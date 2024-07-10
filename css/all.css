@@ -1,0 +1,228 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* 【以上內容勿動!!!  有關基本樣式設定】 */
+/* 開版設定 */
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* 【超過】 開版範圍 就不呈現 */
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+/* 定位 */
+
+
+.thing01-1 {
+    width: 32.8%;
+    left: 26%;
+    top: 18.5%;
+    opacity: 0;
+}
+
+.thing01-2 {
+    width: 54%;
+    right: 0%;
+    top: 52%;
+    -webkit-mask: url("../images/thing-02.png") no-repeat center center;
+    mask: url("../images/thing-02.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing01-3 {
+    width: 58.4%;
+    left: 0%;
+    top: 36%;
+    opacity: 0;
+}
+
+.thing01-4 {
+    width: 100%;
+    left: 5%;
+    top: 60%;
+    scale: 1.234;
+}
+
+.thing02-1 {
+    width: 98%;
+    left: -13%;
+    top: 22.5%;
+}
+
+.thing02-2 {
+    width: 38.9%;
+    right: -1%;
+    top: 29%;
+}
+
+.thing02-3 {
+    width: 42.2%;
+    left: 1%;
+    top: 41.5%;
+}
+
+.thing02-4 {
+    width: 57.3%;
+    left: 44%;
+    top: 38.2%;
+}
+
+.thing02-5 {
+    width: 46%;
+    right: 42.6%;
+    top: 51.2%;
+}
+
+.thing02-6 {
+    width: 100%;
+    right: -1.5%;
+    top: 59.6%;
+    scale: 1.087;
+}
+
+.thing04-1 {
+    width: 31.1%;
+    left: 11%;
+    top: 58%;
+}
+
+.thing04-2 {
+    width: 32.3%;
+    left: 33.5%;
+    top: 59%;
+    z-index: 2;
+}
+
+.thing04-3 {
+    width: 26.4%;
+    left: 12%;
+    top: 44%;
+}
+
+.thing04-4 {
+    width: 33.3%;
+    left: 34%;
+    top: 38%;
+    z-index: 2;
+}
+
+.thing04-5 {
+    width: 28.2%;
+    right: 11%;
+    top: 43%;
+    z-index: 1;
+}
+
+.thing04-6 {
+    width: 31.1%;
+    right: 8%;
+    top: 61%;
+}
+
+.thing05-1 {
+    width: 100%;
+    left: 4%;
+    top: 14.5%;
+    scale: 1.043;
+}
+
+.thing05-2 {
+    width: 100%;
+    left: 18%;
+    top: 47%;
+    scale: 1.313;
+}
+
+.thing06-1 {
+    width: 90.2%;
+    left: 3.9%;
+    bottom: 9.5%;
+    -webkit-mask: url("../images/thing-22.png") no-repeat center center;
+    mask: url("../images/thing-22.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing06-2 {
+    width: 100%;
+    left: 0%;
+    top: 27%;
+}
+
+.thing10-1 {
+    width: 69%;
+    left: 16%;
+    top: 29%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+
+.thing10-2 {
+    width: 74.9%;
+    left: 13.55%;
+    bottom: 5%;
+    animation: scale 1.5s infinite ease-in-out;
+}
+
+.thing11-1 {
+    width: 34.6%;
+    right: -2%;
+    bottom: 7.5%;
+    animation: scale 2s infinite ease-in-out;
+}
+
+.thing12-1 {
+    width: 34.6%;
+    right: -2%;
+    bottom: 16.5%;
+    animation: scale 2s infinite ease-in-out;
+}
+
+.tel {
+    width: 100%;
+    height: 10%;
+    left: 0;
+    bottom: 24%;
+}
